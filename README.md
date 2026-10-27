@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="Arjun Nair, full-stack software engineer" width="100%">
 
-<a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Email-Say_hi-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="RESUME_URL"><img src="https://img.shields.io/badge/Resume-PDF-22D3EE?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"></a>
+<a href="https://www.linkedin.com/in/arjunnair3006/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>
 
