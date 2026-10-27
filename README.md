@@ -1,82 +1,59 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Arjun Nair: I build race-engineering software from raw telemetry" width="100%">
+<img src="assets/hero.svg" alt="Arjun Nair, full-stack software engineer" width="100%">
+
+<a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Email-Say_hi-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="RESUME_URL"><img src="https://img.shields.io/badge/Resume-PDF-22D3EE?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"></a>
 
 </div>
 
-I like problems where the data arrives live and the answer has to be right. Most of what I build turns raw Formula 1 telemetry into decisions: who undercuts whom, which corner cost you the lap, whether a different pit stop would have won the race. I work end to end, from UDP packets and timing feeds through Python models to apps on the web, iOS, Android and Windows. And I test it until I trust it.
+### Full-stack engineer who ships complete, tested products, from the database to the app in your hand.
 
-<img src="assets/kerb.svg" width="100%" height="14" alt="">
+## ⚡ What I bring
 
-## The garage
+- **Real-time systems.** Built a live analytics platform that streams data over WebSockets to a Next.js frontend, backed by FastAPI, PostgreSQL and Redis, with **1,600+ automated tests** running in CI.
+- **One backend, four platforms.** Designed a single FastAPI service that feeds native apps in **Swift (iOS), Kotlin (Android) and C# (Windows)**, plus the web.
+- **Software people can actually install.** Packaged a Python data app into a standalone Windows release (**v1.1.0**): no installer, no Python, no cloud, just unzip and run.
+- **AI used responsibly.** My LLM features only phrase results the code has already computed, and the output is checked before anyone sees it. Numbers never come from a model.
+- **Product thinking.** Auth, admin panels, data import and export, and live demos. I build the boring parts that make software usable, not just the core feature.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## 🛠 Stack
 
-### [Pit Wall](https://github.com/arjun-nair1090/Pitwall)
-<a href="https://github.com/arjun-nair1090/Pitwall"><img src="https://raw.githubusercontent.com/arjun-nair1090/Pitwall/HEAD/docs/readme/live.svg" alt="Pit Wall live timing" width="100%"></a>
+| Area | Tools |
+|---|---|
+| **Languages** | Python · TypeScript · JavaScript · Java · Swift · Kotlin · C# |
+| **Backend** | FastAPI · REST · WebSockets · JWT auth · SQLAlchemy |
+| **Frontend** | Next.js · React · Tailwind CSS · Recharts |
+| **Data** | PostgreSQL · Redis · pandas · NumPy |
+| **Ship it** | Docker · GitHub Actions · pytest · Windows packaging |
 
-Live F1 timing plus a replay of every race since 2018: telemetry head-to-heads, a strategy simulator, lap-by-lap win probability and Monte Carlo title odds. A language model only writes sentences around numbers the code computed, and those sentences are checked before they're shown.
+<img src="https://skillicons.dev/icons?i=python,ts,java,swift,kotlin,cs,fastapi,nextjs,react,postgres,redis,docker,githubactions&theme=dark&perline=13" alt="Tech stack icons">
 
-`Next.js` `FastAPI` `PostgreSQL` `Redis` `WebSockets` `Docker` · **1,618 tests**
+## 🚀 Featured work
 
-</td>
-<td width="50%" valign="top">
+| Project | What it is | Built with | Proof |
+|---|---|---|---|
+| **[Pit Wall](https://github.com/arjun-nair1090/Pitwall)** | Real-time sports analytics platform: live data feed, historical replay, strategy simulation and Monte Carlo forecasting | Next.js · FastAPI · Postgres · Redis · WebSockets | 1,600+ tests · CI · Docker |
+| **[PurpleSector](https://github.com/arjun-nair1090/purplesector)** | Desktop telemetry app that ingests live UDP data from racing games and gives spoken, data-backed coaching, fully offline | Python · Streamlit · pandas · TTS | [v1.1.0 release](https://github.com/arjun-nair1090/purplesector/releases) |
+| **[APEX](https://github.com/arjun-nair1090/apex-f1-widgets)** | Live home-screen widgets on three platforms that switch between countdown, live data and results on their own | Swift · Kotlin · C# · FastAPI | iOS · Android · Windows |
+| **[FitRank](https://github.com/arjun-nair1090/FitRankPro)** | Workout tracker with accounts, analytics and imports of very large Apple Health exports, streamed in the browser | Java · PostgreSQL · JavaScript | [Live demo](https://arjun-nair1090.github.io/FitRankPro/) |
+| **[Resonance](https://github.com/arjun-nair1090/Resonance)** | Music platform with a hybrid recommendation engine (content, collaborative and behavioural signals) | Next.js · FastAPI · Postgres · Redis | Docker Compose |
+| **[TradeBot](https://github.com/arjun-nair1090/TradeBot)** | Trading CLI for the Binance Futures API with hand-written HMAC-SHA256 request signing and input validation | Python · REST | Binance Testnet |
 
-### [PurpleSector](https://github.com/arjun-nair1090/purplesector)
-<a href="https://github.com/arjun-nair1090/purplesector"><img src="https://raw.githubusercontent.com/arjun-nair1090/purplesector/HEAD/docs/screenshots/live.png" alt="PurpleSector live dashboard" width="100%"></a>
-
-A pit wall on your second monitor and a race engineer in your headset, for F1 22 to F1 25. It lines up every lap metre by metre, tells you which corner cost you time before you reach the next one, and only speaks when the data backs it up. Fully offline; ships as a single Windows exe.
-
-`Python` `UDP telemetry` `Streamlit` `TTS` · **[v1.1.0 released](https://github.com/arjun-nair1090/purplesector/releases)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [APEX](https://github.com/arjun-nair1090/apex-f1-widgets)
-<a href="https://github.com/arjun-nair1090/apex-f1-widgets"><img src="https://raw.githubusercontent.com/arjun-nair1090/apex-f1-widgets/HEAD/docs/readme/hero.svg" alt="APEX F1 widgets" width="100%"></a>
-
-Ten home-screen widgets that count down to lights out, switch to live timing on their own, then to results. Native on three platforms, fed by one FastAPI live-timing server.
-
-`Swift` `Kotlin` `C#` `FastAPI` · **iOS · Android · Windows**
-
-</td>
-<td width="50%" valign="top">
-
-### [FitRank](https://github.com/arjun-nair1090/FitRankPro)
-<a href="https://arjun-nair1090.github.io/FitRankPro/"><img src="https://raw.githubusercontent.com/arjun-nair1090/FitRankPro/HEAD/docs/screenshots/progress-desktop.png" alt="FitRank progress charts" width="100%"></a>
-
-A workout tracker with a Java API on PostgreSQL: a fast set logger, PR detection by estimated 1RM, and Hevy and Apple Health imports streamed in the browser so huge exports still work.
-
-`Java` `PostgreSQL` `JavaScript` · **[try the live demo](https://arjun-nair1090.github.io/FitRankPro/)**
-
-</td>
-</tr>
-</table>
-
-**Also on the grid:** [Resonance](https://github.com/arjun-nair1090/Resonance), a music platform with a hybrid recommender (content, collaborative and behaviour signals) on Next.js, FastAPI, Postgres and Redis · [TradeBot](https://github.com/arjun-nair1090/TradeBot), a Binance Futures CLI with hand-rolled HMAC-SHA256 request signing.
-
-<img src="assets/kerb.svg" width="100%" height="14" alt="">
-
-## How I build
-
-- **Numbers come from code.** Models, probabilities and strategy calls are computed in plain, tested Python. AI writes the words, never the facts.
-- **Tested until it's boring.** Pit Wall's backend has over 1,600 tests, and CI runs them on every pull request.
-- **Ship it.** Real releases, live demos and one-command setup: `docker compose up`, or unzip and run.
-- **Same product, every screen.** One backend feeding web, iOS, Android and Windows clients.
-
-## Toolbox
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,ts,js,java,swift,kotlin,cs&theme=dark" alt="Languages">
+<details>
+<summary><b>📸 Screenshots</b></summary>
 <br>
-<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,tailwind,postgres,redis,docker,githubactions&theme=dark" alt="Frameworks and infrastructure">
-</p>
+
+| Pit Wall | PurpleSector |
+|---|---|
+| <img src="https://raw.githubusercontent.com/arjun-nair1090/Pitwall/HEAD/docs/readme/live.svg" width="420"> | <img src="https://raw.githubusercontent.com/arjun-nair1090/purplesector/HEAD/docs/screenshots/live.png" width="420"> |
+| **FitRank** | **APEX** |
+| <img src="https://raw.githubusercontent.com/arjun-nair1090/FitRankPro/HEAD/docs/screenshots/progress-desktop.png" width="420"> | <img src="https://raw.githubusercontent.com/arjun-nair1090/apex-f1-widgets/HEAD/windows/APEX/Assets/Screenshots/Timing.png" width="200"> |
+
+</details>
 
 <div align="center">
 <br>
-<sub>Built in Mumbai · open to software engineering roles</sub>
+
+**Open to full-time software engineering roles: backend, full-stack and real-time systems.**
+
 </div>
