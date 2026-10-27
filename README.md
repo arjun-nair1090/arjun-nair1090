@@ -13,7 +13,7 @@ I've done four internships so far. At EY I built LangChain agents that turn equi
 
 **[Jewlerify](https://jewlerify.vercel.app/)** is a jewellery marketplace where every piece carries a QR tag. Scan it and you see the purity, the weight, and a price broken down from the live gold rate. [Source](https://github.com/arjun-nair1090/buildershub).
 
-**[CalTrack](https://github.com/arjun-nair1090/CalTrack)** recognises food from a photo with a CNN I trained from scratch, which reached 84.5% validation accuracy.
+**[CalTrack](https://github.com/arjun-nair1090/CalTrack)** turns a photo of your meal into a food diary entry. An EfficientNet-B2 I fine-tuned on Food-101 names the dish, right first time on 89.5% of the 25,250 test photos, and USDA data supplies the calories.
 
 **[PurpleSector](https://github.com/arjun-nair1090/purplesector)** is a race engineer in your headset for the F1 games. It decodes 60 Hz telemetry for all 22 cars and tells you which corner cost you time before you reach the next one. It runs offline, and you can [download it](https://github.com/arjun-nair1090/purplesector/releases).
 
@@ -21,7 +21,7 @@ I've done four internships so far. At EY I built LangChain agents that turn equi
 
 Smaller ones: [Resonance](https://github.com/arjun-nair1090/Resonance) recommends music, [FitRank Pro](https://arjun-nair1090.github.io/FitRankPro/) tracks workouts, and [TradeBot](https://github.com/arjun-nair1090/TradeBot) places Binance futures orders from the terminal.
 
-Most of it is Python and TypeScript, with FastAPI, Next.js, PostgreSQL and Redis. I've also shipped Java, Swift, Kotlin and C#, and on the ML side I use LangChain, LangGraph and TensorFlow.
+Most of it is Python and TypeScript, with FastAPI, Next.js, PostgreSQL and Redis. I've also shipped Java, Swift, Kotlin and C#, and on the ML side I use PyTorch, LangChain, LangGraph and TensorFlow.
 
 ### Get in touch
 
